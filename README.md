@@ -2,7 +2,7 @@
 
 Dear Formula Student Teams,
 
-I've designed a High Voltage Indicator in accordance with EV 5.4.8 to replace our heavy and bulky voltmeter. This device can supply between 5 V and 24 V (depending on the configuration) at a maximum of 1 W (isolated) or 3 W (non-isolated) from a 40 V to 800 V source. Two LEDs on the back indicate the presence of high voltage, so it can be mounted either directly to a viewing window in the TSAC or elsewhere with a cable to an external LED. As it is basically an HV step-down converter, it can also be used for any other application, e.g. to start a DC/DC (for LVS supply) from HV with the added benifit of significantly higher efficiency (50-80%) compared to an LDO (few percent).<br>
+I've designed a High Voltage Indicator in accordance with [EV 5.4.8](https://www.formulastudent.de/fileadmin/user_upload/all/2024/rules/FS-Rules_2024_v1.1.pdf#subsubsection.4.5.4.8) to replace our heavy and bulky voltmeter. This device can supply between 5 V and 24 V (depending on the configuration) at a maximum of 1 W (isolated) or 3 W (non-isolated) from a 40 V to 800 V source. Two LEDs on the back indicate the presence of high voltage, so it can be mounted either directly to a viewing window in the TSAC or elsewhere with a cable to an external LED. As it is basically an HV step-down converter, it can also be used for any other application, e.g. to start a DC/DC (for LVS supply) from HV with the added benifit of significantly higher efficiency (50-80%) compared to an LDO (few percent).<br>
 
 Most components used are standard parts, but key components include URLs linking to Mouser or datasheets (for quick access: highlight part, press "D").<br>
 
@@ -58,6 +58,8 @@ Do not lick things with spark symbols on :)
 
 
 # Q&A
+Q: 	&ensp;Which KiCAD Version was used?<br>
+A: 	&ensp;Curently it's KiCAD 8.0.5<br>
 
 Q: 	&ensp;Why are 2x 4.7 mH inductors used instead of a 10 mH inductor?<br>
 A: 	&ensp;You will rarely find maximum voltage values for SMD inductors, so just an extra precaution.<br>
