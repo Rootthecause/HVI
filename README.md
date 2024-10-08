@@ -82,6 +82,7 @@ A: 	&ensp;I have been using one for 10€ from amazon for many years, which can 
 	when a purchase is made: https://amzn.to/3TRJJif<br>
 	In the docs there is an additional folder 'HV Source' for a 3D-printed case which also 
 	uses a rotary potentiometer instead of the trim pot. If there is enough interest, I will make a build guide for it.<br> 
+	Please add 100 uF (check voltage rating!) or more externally to the output, otherwise the feedback loop can be unstable.<br> 
 	
 Q: 	&ensp;I need more Power!<br>
 A: 	&ensp;A smaller Inductor value could help, but be aware that the minimum on-time is 400 ns.
