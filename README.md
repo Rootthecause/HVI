@@ -93,7 +93,7 @@ A:	&ensp;I like to use a font (Futured) for visuals which is not pre-installed o
 	Importing it as a logo is easier to retain it.<br> 
 
 Q: 	&ensp;Some 3D models on the PCB are missing.<br>
-A:	&ensp;They are not inluded due to licence terms. However, you can download them from https://www.samacsys.com/ using the Mouser link provided in the properties of the KiCAD components.<br> 
+A:	&ensp;They are not included due to licence terms. However, you can download them from https://www.samacsys.com/ using the Mouser link provided in the properties of the KiCAD components.<br> 
 
 Q:	&ensp;This is open source. Can I modify it? Can I sell it?<br>
 A:	&ensp;Sure! But please use your own version numbering and change "Designed by Rootthecause" 
