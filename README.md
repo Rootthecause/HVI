@@ -16,6 +16,8 @@ Although this design has passed FSG scrutineering and has been operating without
 
 If you encounter any bugs or have suggestions for improvement, please feel free to use the GitHub [issues form](https://github.com/Rootthecause/HVI/issues/new). For discussions and technical questions, kindly use the [discussion bord](https://github.com/Rootthecause/HVI/discussions).<br>
 
+Have fun. Do not lick things with spark symbols on :) 
+
 Best regards,
 Rootthecause
 
@@ -36,33 +38,7 @@ v1.0	commercial PCB with optimized components, tested for more than 3 months.
 v1.1	Small layout changes and improvements, not tested but should be fine
 ```
 
-# FILE STRUCTURE
-```
-- Readme
-- LICENSE
-- KiCAD Files
-v doc
-	> 3D Printing
-	v bom	
-		- ibom.html
-	v Gerber for JLC Order
-		> Gerber
-		- JLC Order Settings
-		- Gerber for JLC Order.zip
-	> HV Generator
-	- HVI Dimensions.pdf
-	- HVI Schematic.pdf
-	> LTSPice Simulation
-	> Pictures and Renderings
-```
-
-Have fun. 
-Do not lick things with spark symbols on :) 
-
-
 # Q&A
-Q: 	&ensp;Which KiCAD Version was used?<br>
-A: 	&ensp;Curently it's KiCAD 8.0.5<br>
 
 Q: 	&ensp;Why are 2x 4.7 mH inductors used instead of a 10 mH inductor?<br>
 A: 	&ensp;You will rarely find maximum voltage values for SMD inductors, so just an extra precaution.<br>
