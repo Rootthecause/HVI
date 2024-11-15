@@ -85,4 +85,4 @@ Q:	&ensp;I've got a question not listed here, can I contact you?<br>
 A:	&ensp;Please use the [issues form](https://github.com/Rootthecause/HVI/issues/new) on GitHub for techical related questions.<br> 
 
 Q:	&ensp;Is there a way to support your projects?<br>
-A:	&ensp;Yes: https://ko-fi.com/rootthecause<br>
+A:	&ensp;I welcome any feedback on this project to make it better for everyone. Otherwise, if you would like to support me in working on this and other projects, you can also leave a donation. https://ko-fi.com/rootthecause<br>
