@@ -9998,7 +9998,7 @@
 		)
 		(uuid "2f65ae9a-ff30-4504-9336-cdcf2f6fc423")
 	)
-	(text "FAQ:\n\nQ: 	Why are 2x 4.7 mH inductors used instead of a 10 mH inductor?\nA: 	You will rarely find maximum voltage values for SMD inductors, so just an extra precaution.\n\nQ: 	Why is there no output fuse?\nA: 	The VIPER06 can be short-circuited indefinitely.\n\nQ: 	I need [insert voltage here], can I do that?\nA: 	You can either change PS1 (12 V to 3.3 V to 24 V converters available) \n	or (when used directly without PS1) the feedback voltage divider can be altered.\n	I do not reccomend going above 23.5 V because the IC's VDD voltage will be clamped, \n	which could lead to high losses or destruction of the IC. Going below 11.5 V \n	will use the internal high-voltage generator as IC's VDD supply (higher losses).\n	So ideally, stay between 12 V and 23 V.\n\nQ: 	Where do I get a cheap high voltage source for testing?\nA: 	I have been using one for 10€ from amazon for many years, which can generate up to \n	800 V (when both -+400 V rails are used) from a 8 to 32 V source (15 V delivers most power).\n	If you want to support me, you can use my affiliate link where I get a small commission \n	when a purchase is made: https://amzn.to/3TRJJif\n	In the docs there is an additional folder 'HV Source' for a 3D-printed case which also \n	uses a rotary potentiometer instead of the trim pot. \n	\nQ: 	I need more Power!\nA: 	A smaller Inductor value could help, but be aware that the minimum on-time is 400 ns.\n	At high input voltages this could lead to overcurrent when using small inductro values.\n\nQ: 	Why is the text \"Voltage Indicator\", \"Designed by XXX\" and \"HVI vX.X\" not editable?\nA	I like to use a font (Futured) for visuals which is not pre-installed on most systems. \n	Importing it as a logo is easier to retain it. \n\nQ:	This is open source. Can I modify it? Can I sell it?\nA:	Sure! But please use your own version numbering and change \"Designed by Rootthecause\" \n	to \"Designed by [Your Name] based on a design by Rootthecause\". \n	As this is licensed under CeRN OHL v2 Weakly Reciprocal, you must disclose the source, \n	state changes and use the same license if used for non private projects.\n	Learn more about this here: https://choosealicense.com/licenses/cern-ohl-w-2.0/\n\nQ:	I've got a question not listed here, can I contact you?\nA:	Please use the issues form on GitHub for techical related questions. \n\nQ:	Is there a way to support your projects?\nA:	Yes: https://ko-fi.com/rootthecause"
+	(text "FAQ:\n\nQ: 	Why are 2x 4.7 mH inductors used instead of a 10 mH inductor?\nA: 	You will rarely find maximum voltage values for SMD inductors, so just an extra precaution.\n\nQ: 	Why is there no output fuse?\nA: 	The VIPER06 can be short-circuited indefinitely.\n\nQ: 	I need [insert voltage here], can I do that?\nA: 	You can either change PS1 (12 V to 3.3 V to 24 V converters available) \n	or (when used directly without PS1) the feedback voltage divider can be altered.\n	I do not reccomend going above 23.5 V because the IC's VDD voltage will be clamped, \n	which could lead to high losses or destruction of the IC. Going below 11.5 V \n	will use the internal high-voltage generator as IC's VDD supply (higher losses).\n	So ideally, stay between 12 V and 23 V.\n\nQ: 	Where do I get a cheap high voltage source for testing?\nA: 	I have been using one for 10€ from amazon for many years, which can generate up to \n	800 V (when both -+400 V rails are used) from a 8 to 32 V source (15 V delivers most power).\n	If you want to support me, you can use my affiliate link where I get a small commission \n	when a purchase is made: https://amzn.to/3TRJJif\n	In the docs there is an additional folder 'HV Source' for a 3D-printed case which also \n	uses a rotary potentiometer instead of the trim pot. \n	\nQ: 	I need more Power!\nA: 	A smaller Inductor value could help, but be aware that the minimum on-time is 400 ns.\n	At high input voltages this could lead to overcurrent when using small inductro values.\n\nQ: 	Why is the text \"Voltage Indicator\", \"Designed by XXX\" and \"HVI vX.X\" not editable?\nA	I like to use a font (Futured) for visuals which is not pre-installed on most systems. \n	Importing it as a logo is easier to retain it. \n\nQ:	This is open source. Can I modify it? Can I sell it?\nA:	Sure! But please use your own version numbering and change \"Designed by Rootthecause\" \n	to \"Designed by [Your Name] based on a design by Rootthecause\". \n	As this is licensed under CeRN OHL v2 Weakly Reciprocal, you must disclose the source, \n	state changes and use the same license if used for non private projects.\n	Learn more about this here: https://choosealicense.com/licenses/cern-ohl-w-2.0/\n\nQ:	I've got a question not listed here, can I contact you?\nA:	Please use the issues form on GitHub for techical related questions. \n\nQ:	Is there a way to support your projects?\nA:	Yes, you can build it and share your results and findings in the GitHub forum \n     or support my project financially on Ko-Fi :) https://ko-fi.com/rootthecause"
 		(exclude_from_sim no)
 		(at 214.63 158.75 0)
 		(effects
@@ -10175,6 +10175,17 @@
 			(justify left bottom)
 		)
 		(uuid "fd8c63ca-3e31-44d6-ba5c-7b417ee80276")
+	)
+	(text "Note on D1\nThe US3M-13 has been replaced by the VS-E7FX0212-M3/I Didoe. \nIf you ordered the circuit board before December 14, 2024 \nthe Fooprint old will be too large.\nPlease use solder or a short wire to bridge the gap.\nUsing the US3M-13 will lead to issues with the voltage regulation."
+		(exclude_from_sim no)
+		(at 103.505 46.99 0)
+		(effects
+			(font
+				(size 0.6 0.6)
+			)
+			(justify left)
+		)
+		(uuid "ffe7e978-ee9a-4aaf-9ebf-4c7a6e7e2043")
 	)
 	(symbol
 		(lib_id "Device:R_Small")
@@ -11854,15 +11865,15 @@
 				)
 			)
 		)
-		(property "Value" "US3M-13"
-			(at 118.745 59.69 90)
+		(property "Value" "VS-E7FX0212-M3/I"
+			(at 114.3 61.595 90)
 			(effects
 				(font
 					(size 0.8 0.8)
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMC"
+		(property "Footprint" "Diode_SMD:D_SMF"
 			(at 114.3 59.055 90)
 			(effects
 				(font
@@ -11871,7 +11882,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/US3M.pdf"
+		(property "Datasheet" "https://www.mouser.de/ProductDetail/Vishay/VS-E7FX0212-M3-I?qs=sGAEpiMZZMtbRapU8LlZD8qu4xuMq4%252BSuyt6OIho4cA9a2wnVK4kLA%3D%3D"
 			(at 114.3 59.055 90)
 			(effects
 				(font
