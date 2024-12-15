@@ -10680,7 +10680,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "book"
+		(property "Datasheet" "-"
 			(at 80.01 63.5 0)
 			(effects
 				(font
@@ -12224,7 +12224,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "book"
+		(property "Datasheet" "-"
 			(at 68.58 69.215 0)
 			(effects
 				(font
