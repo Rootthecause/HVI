@@ -2017,7 +2017,7 @@
 		(path "/03865ad1-5085-4e6d-befd-3658cdbf6411")
 		(sheetname "Root")
 		(sheetfile "HVI.kicad_sch")
-		(attr smd dnp)
+		(attr smd exclude_from_bom dnp)
 		(fp_line
 			(start -0.254724 0.5225)
 			(end 0.254724 0.5225)
@@ -2176,7 +2176,7 @@
 				)
 			)
 		)
-		(property "Value" "≤ 500 mA"
+		(property "Value" "≤ 500 mA, solder Fuse Clips F1.1 and F1.2 and insert F1"
 			(at 17.25 5.05 0)
 			(layer "F.Fab")
 			(uuid "da76c262-4d12-40a3-a2e7-965d6e29ae32")
@@ -10099,7 +10099,7 @@
 				)
 			)
 		)
-		(property "Value" "1 µF"
+		(property "Value" "100nF"
 			(at 0 1.43 90)
 			(layer "F.Fab")
 			(uuid "cf646bcc-fe8f-4ba1-a784-96861d9793c0")
@@ -10123,7 +10123,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "book"
+		(property "Datasheet" "-"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10902,7 +10902,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "book"
+		(property "Datasheet" "-"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11904,7 +11904,7 @@
 		(path "/9b96b654-acc9-4f49-965d-5f076c2bb9bd")
 		(sheetname "Root")
 		(sheetfile "HVI.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom dnp)
 		(fp_line
 			(start -0.146267 0.51)
 			(end 0.146267 0.51)

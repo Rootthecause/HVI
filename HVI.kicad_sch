@@ -150,6 +150,126 @@
 				)
 			)
 		)
+		(symbol "Connector:Conn_01x01_Socket"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x01_Socket"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x01, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x01_Socket_1_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0.508)
+					(mid -0.5058 0)
+					(end 0 -0.508)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector_Generic:Conn_01x02"
 			(pin_names
 				(offset 1.016) hide)
@@ -2180,6 +2300,12 @@
 		(uuid "689c8d28-7940-4eb8-9b51-aba78ee3d406")
 	)
 	(junction
+		(at 32.385 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "68edd403-c967-4940-9b94-0bd541443d53")
+	)
+	(junction
 		(at 62.865 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2250,6 +2376,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b99dd6bb-81e8-44bf-a82c-a89333ef1eb6")
+	)
+	(junction
+		(at 24.765 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bd6bb855-5246-458a-8fcd-39f2ef26ed28")
 	)
 	(junction
 		(at 34.925 33.02)
@@ -9973,6 +10105,19 @@
 			"EoJdC17l8vD/AT4tlfmTY+71AAAAAElFTkSuQmCC"
 		)
 	)
+	(text "Note on C11\nIf it is intend to drive a large load, \nthen you can use C11 instead."
+		(exclude_from_sim no)
+		(at 153.67 77.47 0)
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "01fc083c-ae87-47fd-a618-378415834db0")
+	)
 	(text "I'm unsure why 700 V and 800 V look so different from the others.\nMight need to re-test when I got time :‘)"
 		(exclude_from_sim no)
 		(at 240.665 92.075 0)
@@ -10013,7 +10158,7 @@
 	)
 	(text "HV-"
 		(exclude_from_sim no)
-		(at 15.621 81.026 0)
+		(at 15.875 81.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10061,9 +10206,19 @@
 		)
 		(uuid "89aa16f6-c443-4ce4-8a03-da1d7be58cba")
 	)
+	(text "≤ 500 mA"
+		(exclude_from_sim no)
+		(at 28.575 35.56 0)
+		(effects
+			(font
+				(size 0.8 0.8)
+			)
+		)
+		(uuid "8fe3cf8c-8fa7-47be-a820-885ce650da48")
+	)
 	(text "Isolated output"
 		(exclude_from_sim no)
-		(at 133.985 90.932 0)
+		(at 133.985 90.805 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10086,9 +10241,22 @@
 		)
 		(uuid "9f8b0157-ac99-4b6d-a3e8-2f7a029591e1")
 	)
+	(text "Note on R6 and C6\nThose are just for development.\nLeave those footprints empty."
+		(exclude_from_sim no)
+		(at 54.61 80.01 0)
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "b2b72efa-4e3f-4114-9630-82e23c40f640")
+	)
 	(text "RC-Lowpass \nagainst ripple \nconducting \nback to TS\n\nTau = 20 µs"
 		(exclude_from_sim no)
-		(at 31.115 57.785 0)
+		(at 31.115 59.055 0)
 		(effects
 			(font
 				(size 0.8 0.8)
@@ -10112,6 +10280,19 @@
 		)
 		(uuid "bab2fe02-87c3-4eb9-beb3-3837b4d3a9ca")
 	)
+	(text "Note: F1 is made from three parts.\nF1.1 and F1.2 are the fuse clips for soldering.\nF1 is the fuse itself (insert into fuse clips)"
+		(exclude_from_sim no)
+		(at 12.7 44.45 0)
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.16)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "c4f14073-bb95-4528-8afb-2c4f3d1eedd4")
+	)
 	(text "12 V"
 		(exclude_from_sim no)
 		(at 128.905 81.915 0)
@@ -10126,7 +10307,7 @@
 	)
 	(text "alternative \nfootprint"
 		(exclude_from_sim no)
-		(at 163.83 88.011 0)
+		(at 163.83 88.265 0)
 		(effects
 			(font
 				(size 1 1)
@@ -10137,9 +10318,30 @@
 		)
 		(uuid "cba8bfc7-182e-467b-bb6a-e25e03439778")
 	)
-	(text "A cartridge fuse\nfrom a multimeter \ncan be used too ;)"
+	(text "Note on JP1\nIf the output J1 is used, bridge the left and middle or right and middle pads together \nwith solder in order to choose between direct connection or resistor in series for the output."
 		(exclude_from_sim no)
-		(at 22.098 40.513 0)
+		(at 155.575 96.52 0)
+		(effects
+			(font
+				(size 0.6 0.6)
+			)
+			(justify left)
+		)
+		(uuid "ce325d28-a2da-4714-a7a0-a86f74491dd9")
+	)
+	(text "Fuse clips"
+		(exclude_from_sim no)
+		(at 28.575 29.21 0)
+		(effects
+			(font
+				(size 0.6 0.6)
+			)
+		)
+		(uuid "d516b1f7-c842-45ed-a890-009bbc77fa6b")
+	)
+	(text "A cartridge fuse\nfrom a multimeter \ncan be used too"
+		(exclude_from_sim no)
+		(at 22.86 40.64 0)
 		(effects
 			(font
 				(size 0.8 0.8)
@@ -10165,7 +10367,7 @@
 	)
 	(text "HV+"
 		(exclude_from_sim no)
-		(at 15.621 29.464 0)
+		(at 15.875 29.21 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10192,7 +10394,7 @@
 		(at 59.055 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(uuid "03865ad1-5085-4e6d-befd-3658cdbf6411")
@@ -10662,7 +10864,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1 µF"
+		(property "Value" "100nF"
 			(at 83.185 64.7762 0)
 			(effects
 				(font
@@ -11142,6 +11344,73 @@
 			(project "HVI"
 				(path "/96589b0c-b051-494a-952b-1d85eb492735"
 					(reference "JP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 32.385 27.94 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "502283af-c027-4a76-b851-49d3e9b0561b")
+		(property "Reference" "F1.2"
+			(at 30.734 26.9239 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Fuse Clips"
+			(at 34.29 29.8449 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "-"
+			(at 32.385 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.de/ProductDetail/Littelfuse/01220083Z?qs=95aqoVzNh5YRvw7yc4yLmA%3D%3D"
+			(at 32.385 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 32.385 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "614b08d8-7a1f-4039-8acc-73b9930d44d6")
+		)
+		(instances
+			(project "HVI"
+				(path "/96589b0c-b051-494a-952b-1d85eb492735"
+					(reference "F1.2")
 					(unit 1)
 				)
 			)
@@ -12427,9 +12696,9 @@
 		(at 62.865 69.215 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "9b96b654-acc9-4f49-965d-5f076c2bb9bd")
 		(property "Reference" "C6"
 			(at 59.69 67.3162 0)
@@ -13458,12 +13727,13 @@
 				)
 			)
 		)
-		(property "Value" "≤ 500 mA"
+		(property "Value" "≤ 500 mA, solder Fuse Clips F1.1 and F1.2 and insert F1"
 			(at 28.575 35.0774 90)
 			(effects
 				(font
 					(size 0.8 0.8)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "DC-DC Footprint Lib:Fuseholder0,25Zoll_32mm_littlefuse_102_122"
@@ -13775,6 +14045,73 @@
 			(project "HVI"
 				(path "/96589b0c-b051-494a-952b-1d85eb492735"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 24.765 27.94 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "ecf720b8-82a4-4cdf-a395-1718b48205ad")
+		(property "Reference" "F1.1"
+			(at 23.114 26.9239 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Fuse Clips"
+			(at 26.67 29.8449 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "-"
+			(at 24.765 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.de/ProductDetail/Littelfuse/01220083Z?qs=95aqoVzNh5YRvw7yc4yLmA%3D%3D"
+			(at 24.765 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 24.765 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c4ba9878-c9c9-4375-a0c6-839c85eea2f3")
+		)
+		(instances
+			(project ""
+				(path "/96589b0c-b051-494a-952b-1d85eb492735"
+					(reference "F1.1")
 					(unit 1)
 				)
 			)
