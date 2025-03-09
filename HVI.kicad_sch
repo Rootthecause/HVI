@@ -10480,7 +10480,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Number" ""
+		(property "Manufacturer Number" "-"
 			(at 59.055 63.5 0)
 			(effects
 				(font
@@ -10653,7 +10653,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "-"
+		(property "Datasheet" "https://www.mouser.de/ProductDetail/YAGEO/AC0603JR-0710KL?qs=cGU37fGUGy9YzDGDQHkl5g%3D%3D"
 			(at 74.295 69.215 0)
 			(effects
 				(font
@@ -10707,7 +10707,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Number" ""
+		(property "Manufacturer Number" "AC0603JR-0710KL"
 			(at 74.295 69.215 0)
 			(effects
 				(font
@@ -10882,7 +10882,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "-"
+		(property "Datasheet" "https://www.mouser.de/ProductDetail/Murata-Electronics/GRM188R72A103MA01J?qs=QzBtWTOodeWXrWvHLobtrQ%3D%3D"
 			(at 80.01 63.5 0)
 			(effects
 				(font
@@ -10936,7 +10936,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Number" ""
+		(property "Manufacturer Number" "GRM188R72A103MA01J"
 			(at 80.01 63.5 0)
 			(effects
 				(font
@@ -10996,7 +10996,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/670/peme1_s-1596077.pdf"
+		(property "Datasheet" "https://www.mouser.de/ProductDetail/CUI-Inc/PEME1-S12-S5-S?qs=iLbezkQI%252Bsil9QGLUwaYwA%3D%3D"
 			(at 141.605 81.915 0)
 			(effects
 				(font
@@ -11091,7 +11091,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Number" ""
+		(property "Manufacturer Number" "PEME1-S12-S5-S "
 			(at 141.605 81.915 0)
 			(effects
 				(font
@@ -11155,7 +11155,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/ProductDetail/CUI-Inc/PEME1-S12-S5-S?qs=iLbezkQI%252Bsil9QGLUwaYwA%3D%3D"
+		(property "Datasheet" "https://www.mouser.de/ProductDetail/ROHM-Semiconductor/KTR18EZPF2700?qs=493kPxzlxfI0Eh3cLVC%2FqA%3D%3D"
 			(at 38.735 45.72 0)
 			(effects
 				(font
@@ -11209,7 +11209,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Number" "PEME1-S12-S5-S"
+		(property "Manufacturer Number" "KTR18EZPF2700"
 			(at 38.735 45.72 0)
 			(effects
 				(font
@@ -11240,7 +11240,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "3d2e7ade-8607-46f1-b5e9-d3a903888ab2")
 		(property "Reference" "JP1"
 			(at 170.18 85.725 0)
@@ -11322,7 +11322,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Number" ""
+		(property "Manufacturer Number" "-"
 			(at 173.355 86.995 0)
 			(effects
 				(font
@@ -11396,6 +11396,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 32.385 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Number" "01220083Z "
 			(at 32.385 27.94 0)
 			(effects
 				(font
@@ -11927,7 +11936,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "-"
+		(property "Datasheet" "https://www.mouser.de/ProductDetail/Vishay-Dale/CRCW06031K00FKEE?qs=%252B6g0mu59x7JNM5l%252Bg7fBgQ%3D%3D"
 			(at 68.58 59.055 0)
 			(effects
 				(font
@@ -11981,7 +11990,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Number" ""
+		(property "Manufacturer Number" "CRCW06031K00FKEE"
 			(at 68.58 59.055 0)
 			(effects
 				(font
@@ -12039,7 +12048,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/ProductDetail/CUI-Inc/PEME1-S12-S5-S?qs=iLbezkQI%252Bsil9QGLUwaYwA%3D%3D"
+		(property "Datasheet" "https://www.mouser.de/ProductDetail/ROHM-Semiconductor/KTR18EZPF2700?qs=493kPxzlxfI0Eh3cLVC%2FqA%3D%3D"
 			(at 38.735 33.02 0)
 			(effects
 				(font
@@ -12093,7 +12102,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Number" "PEME1-S12-S5-S"
+		(property "Manufacturer Number" "KTR18EZPF2700"
 			(at 38.735 33.02 0)
 			(effects
 				(font
@@ -12205,7 +12214,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Number" "US3M-13"
+		(property "Manufacturer Number" "VS-E7FX0212-M3/I "
 			(at 114.3 59.055 0)
 			(effects
 				(font
@@ -12493,7 +12502,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "-"
+		(property "Datasheet" "https://www.mouser.de/ProductDetail/KEMET/C0603C223J3RACAUTO?qs=sSYV1F9c5cH7%2FAz%2FOpyTtQ%3D%3D"
 			(at 68.58 69.215 0)
 			(effects
 				(font
@@ -12547,7 +12556,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Number" ""
+		(property "Manufacturer Number" "C0603C223J3RACAUTO "
 			(at 68.58 69.215 0)
 			(effects
 				(font
@@ -12839,7 +12848,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "-"
+		(property "Datasheet" "https://www.mouser.de/ProductDetail/YAGEO/AC0603FR-0727KL?qs=yhV1fb9g%2FKYPMFaufpN2JA%3D%3D"
 			(at 74.295 59.055 0)
 			(effects
 				(font
@@ -12893,7 +12902,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Number" ""
+		(property "Manufacturer Number" "AC0603FR-0727KL"
 			(at 74.295 59.055 0)
 			(effects
 				(font
@@ -12951,7 +12960,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/ProductDetail/CUI-Inc/PEME1-S12-S5-S?qs=iLbezkQI%252Bsil9QGLUwaYwA%3D%3D"
+		(property "Datasheet" "https://www.mouser.de/ProductDetail/ROHM-Semiconductor/KTR18EZPF2700?qs=493kPxzlxfI0Eh3cLVC%2FqA%3D%3D"
 			(at 38.735 39.37 0)
 			(effects
 				(font
@@ -13005,7 +13014,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Number" "PEME1-S12-S5-S"
+		(property "Manufacturer Number" "KTR18EZPF2700"
 			(at 38.735 39.37 0)
 			(effects
 				(font
@@ -13518,7 +13527,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "-"
+		(property "Datasheet" "https://www.mouser.de/ProductDetail/YAGEO/AC0603FR-10150RL?qs=r5DSvlrkXmLR9P%2FIODCVmQ%3D%3D"
 			(at 173.355 79.375 0)
 			(effects
 				(font
@@ -13572,7 +13581,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Number" ""
+		(property "Manufacturer Number" "AC0603FR-10150RL"
 			(at 173.355 79.375 0)
 			(effects
 				(font
@@ -13745,7 +13754,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.reichelt.de/sicherung-6-3x32mm-1000v-0-25a-ar-ff-mms-p7600-p142812.html?&trstct=pol_4&nbc=1"
+		(property "Datasheet" "https://www.mouser.de/ProductDetail/Bel-Fuse/0ADAC0250-BE?qs=rrS6PyfT74etahbNPwSVLw%3D%3D"
 			(at 28.575 33.02 0)
 			(effects
 				(font
@@ -13799,7 +13808,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Number" ""
+		(property "Manufacturer Number" "0ADAC0250-BE"
 			(at 28.575 33.02 0)
 			(effects
 				(font
@@ -14097,6 +14106,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 24.765 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Number" "01220083Z "
 			(at 24.765 27.94 0)
 			(effects
 				(font
