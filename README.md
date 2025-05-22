@@ -1,4 +1,4 @@
-[![kicad](https://img.shields.io/badge/KiCad-8.0.5-1F4FFF)](https://www.kicad.org/)
+[![kicad](https://img.shields.io/badge/KiCad-9.0.2-1F4FFF)](https://www.kicad.org/)
 [![LTspice](https://img.shields.io/badge/LTspice-17.0-910029)](https://www.analog.com/en/resources/design-tools-and-calculators/ltspice-simulator.html)
 
 ![Alt text](https://github.com/Rootthecause/HVI/blob/main/doc/Pictures%20and%20Renderings/HVI%201%20Title.png?raw=true)
