@@ -1,4 +1,4 @@
-[![kicad](https://img.shields.io/badge/KiCad-9.0.2-1F4FFF)](https://www.kicad.org/)
+[![kicad](https://img.shields.io/badge/KiCad-9.0.7-1F4FFF)](https://www.kicad.org/)
 [![LTspice](https://img.shields.io/badge/LTspice-17.0-910029)](https://www.analog.com/en/resources/design-tools-and-calculators/ltspice-simulator.html)
 
 ![Alt text](https://github.com/Rootthecause/HVI/blob/main/doc/Pictures%20and%20Renderings/HVI%201%20Title.png?raw=true)
@@ -12,7 +12,7 @@ Most components used are standard parts, but key components include URLs linking
 This design is published as open-source hardware under the CERN-OHL-W license and can be found on GitHub: https://github.com/Rootthecause/HVI<br>
 If you have received any files from me directly, please do not share or publish them, as I don't want others to share files which may be incomplete or contain errors.<br>
 
-Although this design has passed FSG scrutineering and has been operating without any issues for over 3 months, always manufacture at your own risk!<br>
+Although this design has passed FSG scrutineering and has been operating without any issues for over 2 Years, always manufacture at your own risk!<br>
 
 If you encounter any bugs or have suggestions for improvement, please feel free to use the GitHub [issues form](https://github.com/Rootthecause/HVI/issues/new). For discussions and technical questions, kindly use the [discussion bord](https://github.com/Rootthecause/HVI/discussions).<br>
 
@@ -46,7 +46,7 @@ The output will stay constant at around 5 V regardless of the input voltage, thu
 <br>
 
 Q: 	&ensp;How is the Rule [EV 5.4.8 (Rules 2026_v1.0)](https://www.formulastudent.de/fileadmin/user_upload/all/2026/rules/FS-Rules_2026_v1.0.pdf#subsubsection.4.5.4.8) "greater than 60 V DC" fullfilled?"<br>
-A: 	&ensp;The Rule does not require a logic to light up the LEDs exacly at 60 V - but it must be lit by then. So if the LEDs lights up below 60V, it sufficiently met the rule. 
+A: 	&ensp;The Rule does not require a logic to light up the LEDs exacly at 60 V - but it must be lit by then. So if the LEDs light up below 60V, it sufficiently met the rule. 
 Once the HVI has turned on at around 39 V it will stay on until the voltage falls below around 12 V.<br>
 
 Q: 	&ensp;My team is using the HVI v1.1 design. Are there any changes regarding the Rules 2026 required?<br>
